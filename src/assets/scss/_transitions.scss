@@ -1,0 +1,32 @@
+// Fade 100ms
+.fade-100-enter-active,
+.fade-100-leave-active {
+	transition: opacity 0.1s;
+}
+
+.fade-100-enter,
+.fade-100-leave-to {
+	opacity: 0;
+}
+
+// Fade 200ms
+.fade-200-enter-active,
+.fade-200-leave-active {
+	transition: opacity 0.1s;
+}
+
+.fade-200-enter,
+.fade-200-leave-to {
+	opacity: 0;
+}
+
+// Fade 400
+.fade-400-enter-active,
+.fade-400-leave-active {
+	transition: opacity 0.4s;
+}
+
+.fade-400-enter,
+.fade-400-leave-to {
+	opacity: 0;
+}
